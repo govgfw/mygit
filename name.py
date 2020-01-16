@@ -1,21 +1,12 @@
 """
-比较、逻辑和算身份运算符的使用
+练习1：华氏温度转换为摄氏温度。
+提示：华氏温度到摄氏温度的转换公式为：$C=(F - 32) \div 1.8$。
 
 Version: 0.1
-Author: 骆昊
+Author: govgfw
 """
 
-flag0 = 1 == 1
-flag1 = 3 > 2
-flag2 = 2 < 1
-flag3 = flag1 and flag2
-flag4 = flag1 or flag2
-flag5 = not (1 != 2)
-print('flag0 =', flag0) # flag0 = True
-print('flag1 =', flag1) # flag1 = True
-print('flag2 =', flag2) # flag2 = False
-print('flag3 =', flag3) # flag3 = False
-print('flag4 =', flag4) # flag4 = True
-print('flag5 =', flag5) # flag5 = False
-print(flag1 is True) # True
-print(flag2 is not False) # False
+F=float(input('请输入华氏温度： '))
+C=(F-32)/1.8
+print('对应的摄氏度为： %f' % C)
+print('%.1f 华氏温度 = %.1f 摄氏温度' % (F , C))
