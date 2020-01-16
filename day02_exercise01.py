@@ -6,7 +6,7 @@ Version: 0.1
 Author: govgfw
 """
 
-F=float(input('请输入华氏温度： '))
-C=(F-32)/1.8
-print('对应的摄氏度为： %f' % C)
-print('%.1f 华氏温度 = %.1f 摄氏温度' % (F , C))
+F = float(input('请输入华氏温度： '))
+C = (F - 32) / 1.8
+
+print('%.1f 华氏温度 = %.1f 摄氏温度' % (F, C))
